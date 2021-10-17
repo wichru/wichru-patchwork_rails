@@ -1,0 +1,28 @@
+require: rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'bin/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - 'bin/**'
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 15
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
