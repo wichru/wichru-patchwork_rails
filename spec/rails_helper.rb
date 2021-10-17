@@ -4,7 +4,6 @@
 require 'spec_helper'
 require 'vcr'
 require 'webmock/rspec'
-require 'pry'
 require 'rspec/autorun'
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)

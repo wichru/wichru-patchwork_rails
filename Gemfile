@@ -14,7 +14,7 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 
 group :development, :test do
-  gem 'pry'
+  gem 'pry-byebug'
   gem 'rspec', '~> 3.0'
   gem 'rspec-rails', '~> 5.0.0'
   gem 'rubocop', require: false
@@ -25,6 +25,7 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'pry-rails'
 end
 
 group :test do
