@@ -11,6 +11,10 @@ module Nomics
       client.get('currencies/ticker', { ids: ids.join(',') })
     end
 
+    def convert_crypto(currency:, ids: [])
+      client.get('currencies/ticker', { convert: currency.to_s, ids: ids.join(',') })
+    end
+
     private
 
     def client
