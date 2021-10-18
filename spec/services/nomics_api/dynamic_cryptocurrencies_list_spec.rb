@@ -7,7 +7,6 @@ RSpec.describe NomicsApi::DynamicCryptocurrenciesList, type: :service do
     subject { described_class.new(tickers: tickers, values: values).call }
 
     let(:tickers) { %w[BTC ETH] }
-    # let(:values) { %w[market_cap_change name symbol price] }
     let(:values) { %w[name symbol] }
     let(:api_response) do
       "[
