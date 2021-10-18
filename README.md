@@ -14,7 +14,7 @@ This is the ROR solution of Patchwork tech task.
 ### Installation
 
 ```sh
-$ cd patchwork_ruby
+$ cd patchwork-rails
 $ bundle install
 $ rails setup
 ```
@@ -22,9 +22,15 @@ $ rails setup
 ### Tests
 
 ```sh
-$ cd patchwork_ruby
+$ cd patchwork-rails
 $ rspec spec
 ```
 
 ### Documentation
 Documentation by YARD
+
+To generate docs:
+
+```sh
+$ yardoc --no-private --protected
+```
