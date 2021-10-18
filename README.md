@@ -16,6 +16,7 @@ This is the ROR solution of Patchwork tech task.
 ```sh
 $ cd patchwork_ruby
 $ bundle install
+$ rails setup
 ```
 
 ### Tests
@@ -24,3 +25,6 @@ $ bundle install
 $ cd patchwork_ruby
 $ rspec spec
 ```
+
+### Documentation
+Documentation by YARD
