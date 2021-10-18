@@ -73,6 +73,11 @@ GEM
       rexml
     crass (1.0.6)
     diff-lcs (1.4.4)
+    dry-core (0.7.1)
+      concurrent-ruby (~> 1.0)
+    dry-monads (1.4.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.7)
     erubi (1.10.0)
     faraday (1.8.0)
       faraday-em_http (~> 1.0)
@@ -233,6 +238,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
+  dry-monads
   faraday
   faraday_middleware
   listen (~> 3.3)
