@@ -7,6 +7,7 @@ ruby '3.0.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'dry-monads'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'pg', '~> 1.1'
@@ -24,8 +25,8 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
   gem 'pry-rails'
+  gem 'spring'
 end
 
 group :test do
