@@ -31,3 +31,6 @@ Style/MixinUsage:
     - 'lib/monads.rb'
 RSpec/NamedSubject:
   Enabled: false
+Style/FloatDivision
+  Exclude:
+    - 'app/services/nomics_api/calculate_price.rb'
